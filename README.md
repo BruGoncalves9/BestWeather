@@ -2,6 +2,12 @@
 
 React is the library for web and native user interfaces.
 
+## About this app
+
+Weather App developed in React (HTML, CSS, JavaScript)
+
+Consists of a very simple Weather App that consumes an Open Weather Public API Key (https://openweathermap.org/).
+
 ## Installation
 
 1. Install Node.js
