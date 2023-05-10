@@ -1,13 +1,43 @@
+/**
+  The CSS box-sizing property allows us to include the padding and border in an element's total width and height.
+  Margins are used to create space around elements, outside of any defined borders. Chose to be 0 pixels.
+  Padding is used to create space around an element's content, inside of any defined borders. Chose to be 0 pixels.
+  * -> Represents the root and Selects all elements.
+**/
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/**
+  The <body> tag defines the document's body.
+  Font-family is the default one with a list of font types.
+  The font-smooth CSS property controls the application of anti-aliasing when fonts are rendered.
+**/
+
 body {
-  margin: 0;
+  margin: 0px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/**
+  The <h1> tag defines the <h1> elements.
+  The font-size property sets the size of the text.
+  "em" is relative to the font-size of the element ("2em" means 2 times the size of the current font)
+
+**/
+h1 {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 6em;
+}
+
+
+p {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 1.6em;
 }
