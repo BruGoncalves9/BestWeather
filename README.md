@@ -17,10 +17,15 @@ You need to install Visual Studio Code, a free, built on open source code editor
 3. Command Prompt
 
 Open a command prompt and do the following steps:
+
     -> npm install -g create-react-app
+    
     -> cd (to the specific folder)
+    
     -> create-react-app myapp
+    
     -> cd myapp
+    
     -> npm start
 
 ## Test the web app
@@ -28,7 +33,9 @@ Open a command prompt and do the following steps:
 First of all, clone the project sent to GitHub. Pay attention to the folder where it is downloaded.
 
 Open a command prompt and do the following steps:
+
     -> cd (to the specific project folder where it is downloaded)
+    
     -> npm start
     
 It will open a local website on http://localhost:3000.
