@@ -1,4 +1,4 @@
-# Getting Started with React
+# Getting Started
 
 React is the library for web and native user interfaces.
 
